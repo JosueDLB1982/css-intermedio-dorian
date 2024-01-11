@@ -1,0 +1,70 @@
+body {
+    background-color: #333;
+}
+
+/* Sin BEM */
+
+/* .button-blue {
+    background-color: royalblue;
+    border-radius: .4em;
+    color: #fff;
+    padding: .4em 1em;
+    border: none;
+}
+
+.button-red {
+    background-color: firebrick;
+    border-radius: .4em;
+    color: #fff;
+    padding: .4em 1em;
+    border: none;
+}
+
+.button-ghost-blue {
+    background-color: transparent;
+    border-radius: .4em;
+    color: royalblue;
+    padding: .4em 1em;
+    border: 1px solid royalblue;
+}
+
+.button-ghost-red {
+    background-color: transparent;
+    border-radius: .4em;
+    color: firebrick;
+    padding: .4em 1em;
+    border: 1px solid firebrick;
+} */
+
+.button {
+    border-radius: .4em;
+    padding: .4em 1em;
+    border: none;
+}
+
+.button--blue,
+.button--red {
+    color: #fff;
+}
+
+.button--blue {
+    background-color: royalblue;
+}
+
+.button--red {
+    background-color: firebrick;
+}
+
+.button--ghost-blue,
+.button--ghost-red {
+    background-color: transparent;
+    border: 1px solid currentColor;
+}
+
+.button--ghost-blue {
+    color: royalblue;
+}
+
+.button--ghost-red {
+    color: firebrick;
+}
