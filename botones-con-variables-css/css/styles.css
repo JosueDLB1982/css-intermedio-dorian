@@ -1,0 +1,46 @@
+:root {
+    --bg-button-color: royalblue;
+    --color-text-button: #fff;
+}
+
+body {
+    background-color: #333;
+}
+
+.button {
+    border-radius: .4em;
+    padding: .4em 1em;
+    border: none;
+    background-color: var(--bg-button-color);
+    color: var(--color-text-button);
+}
+
+[class*=button--ghost] {
+    --bg-button-color: transparent;
+    color: var(--color-text-button);
+    border: 1px solid /* var(--color-text-button)  queda por defecto el currentColor*/;
+}
+
+.button--blue {
+    --bg-button-color: royalblue;
+}
+
+.button--red {
+    --bg-button-color: firebrick;
+}
+
+.button--orange {
+    --bg-button-color: orange;
+}
+
+.button--ghost-blue {
+    --color-text-button: royalblue;
+}
+
+.button--ghost-red {
+    --color-text-button: firebrick;
+}
+
+.button--ghost-orange {
+    --color-text-button: orange;
+}
