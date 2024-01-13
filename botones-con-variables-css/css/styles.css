@@ -33,6 +33,10 @@ body {
     --bg-button-color: orange;
 }
 
+.button--green {
+    --bg-button-color: lime;
+}
+
 .button--ghost-blue {
     --color-text-button: royalblue;
 }
@@ -43,4 +47,8 @@ body {
 
 .button--ghost-orange {
     --color-text-button: orange;
+}
+
+.button--ghost-green {
+    --color-text-button: lime;
 }
